@@ -1,9 +1,15 @@
 const DOMSelector = {
 
-    form:document.querySelector("#form"),
-    h2s: document.querySelectorAll("h2"),
-    images: document.querySelectorAll("#card-image")
+    form: document.getElementById("form"),
+    h2Form: document.getElementById("h2-to-replace"),
+    imageForm: document.getElementById("image-to-replace"),
+    submitButton: document.getElementById("submit-button")
 
 };
 
-dom
+function makeCard() {
+
+
+
+}
+
