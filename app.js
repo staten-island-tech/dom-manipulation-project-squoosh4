@@ -45,9 +45,9 @@ DOMSelector.submitButton.addEventListener ("click", function(){
         "beforeend",
         `
         <div class="card">
-            <img src="${DOMSelector.imageForm}" class="image">
-            <h2 class="h2">${DOMSelector.h2Form}</h2>
-        /div>
+            <img src="${DOMSelector.imageForm.value}" class="image">
+            <h2 class="h2">${DOMSelector.h2Form.value}</h2>
+        </div>
         `
     );
     clearFields(DOMSelector.h2Form);
