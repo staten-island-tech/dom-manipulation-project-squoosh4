@@ -21,16 +21,16 @@ console.log(testTextArray);
 //
 //};
 
-function makeCard() {
-
-    const card = {
-
-        gameName: DOMSelector.h2Form,
-        imageAddress: DOMSelector.imageForm
-
-    }
-
-};
+//function makeCard() {
+//
+//    const card = {
+//
+//        gameName: DOMSelector.h2Form,
+//        imageAddress: DOMSelector.imageForm
+//
+//    }
+//
+//};
 
 function clearFields(fieldValue) {
 
