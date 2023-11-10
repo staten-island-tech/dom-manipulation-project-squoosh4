@@ -74,7 +74,15 @@ function create() {
 DOMSelector.submitButton.addEventListener ("click", function(event){
 
     event.preventDefault();
-    create();
+    DOMSelector.gallery.insertAdjacentHTML(
+        "beforeend",
+        `
+        <div class="card">
+            <img src="${DOMSelector.imageForm.value}" class="image">
+            <h2 class="h2">${DOMSelector.h2Form.value}</h2>
+        </div>
+        `
+    );
     clearFields(DOMSelector.h2Form);
     clearFields(DOMSelector.imageForm);
     remove();
