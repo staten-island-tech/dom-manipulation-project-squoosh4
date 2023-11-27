@@ -80,6 +80,7 @@ DOMSelector.submitButton.addEventListener ("click", function(event){
         <div class="card">
             <img src="${DOMSelector.imageForm.value}" class="image">
             <h2 class="h2">${DOMSelector.h2Form.value}</h2>
+            <button>delete this entry</button>
         </div>
         `
     );
